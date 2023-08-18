@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var mongoose = require('mongoose');
-/*var Movie = require('../models/Movie.js');*/
-var Movie = require('C:/movies-api/models/Movie.js');
+var Movie = require('../models/Movie.js');
+//var Movie = require('C:/movies-api/models/Movie.js');
 
 /* GET movies listing. */
 router.get('/', function(req, res, next) {
